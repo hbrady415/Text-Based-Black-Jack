@@ -1,9 +1,8 @@
 Hero vs Monster
 
-Overview
+Overview: 
 Implement a battle between a hero and a monster.  The
-user plays the hero and the monster is controlled by the
-computer.
+user plays the hero and the monster is controlled by the computer.
 The battle proceeds in rounds, with the hero and mon-
 ster  taking  turns.   In  each  turn,  the  hero  can  choose  to
 attack,  defend,  run  away,  or  use  an  item.   The  monster
@@ -18,12 +17,12 @@ choose to equip on their turn.  These may change the amount of damage dealt/abso
 other properties.  The hero may also have items that restore some amount of health.
 In each battle, the monster and its attributes should be randomly generated.
 
-Implementation
+Implementation: 
 Write a Hero and Monster class (or use a single class if your implementation doesn’t require two). 
 Write a Heromon class to act as the main executable.  Continue to alternate between hero and 
 monster until one of them dies or runs away.
 
-Additional Features
+Additional Features: 
 -Monster  AI  –  how  should  the  monster  decide  what  to  do?   (e.g.,  always  attack,  alternate
 attacking and defending, run away if health low, etc.)
 -Weaknesses  –  some  monsters  may  have  a  weakness  to  a  particular  weapon  (e.g.,  pointed
