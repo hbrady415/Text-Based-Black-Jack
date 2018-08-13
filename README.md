@@ -1,23 +1,34 @@
-Blackjack
+Tamagotchi
 
 Overview
-Write  a  program  to  simulate  the  game  of  blackjack.   In
-blackjack,  the  player  tries  to  get  a  hand  of  cards  with
-value closer to 21 than the dealer’s hand, without going
-over 21. Number cards have a value corresponding to their
-number; jacks, queens, and kings are worth 10; and aces
-can be high (11) or low (1).
-The player and dealer are dealt two cards to start (with
-only one of the dealer’s cards face up).  The user can then
-repeatedly request another card (“hit”) until they decide
-to  stop  (“stand”).   If  their  first  two  cards  are  the  same
-(e.g., two kings), they can choose to split them into two
-hands and play them separately.  Then the dealer can choose to hit (any number of times) or stand.
-If the user or dealer is dealt two cards adding to 21 initially, this is called blackjack, and they
-immediately win.  If either player goes over 21, the other automatically wins.  Otherwise, the one
-closer to 21 wins (and the dealer wins in the case of a tie).
+A tamagotchi is a virtual pet that the user has to take care
+of.  The tamagotchi has to eat and drink to stay alive, and
+can also die of boredom if ignored for too long.
+The user has a starting budget with which to buy food,
+snacks, and drinks for the tamagotchi, and gets a certain
+amount of money each day.
+
+Implementation
+Write  a Player class  and  a Tamagotchi class  to  model
+the user and the pet tamagotchi.  Write a TamagotchiApp
+class to act as the main executable.
+The tamagotchi has three levels you have to keep track
+of – hunger,  thirst,  and boredom.  Say these range from
+0 to 100.  Then if any of them reach 100, the tamagotchi will die.
+We can model time as a series of days.  For each “day”, the app should report the current status
+of the tamagotchi and ask the user what they want to do.  The user can buy food and drinks or play
+with the tamagotchi. Food could include things like the following:
+
+bread – decreases hunger
+jalape ̃no chips – decrease hunger but increase thirst
+and drinks:
+water – decreases thirst
+lemonade – decreases thirst and boredom
+coffee – decreases thirst and hunger
+beer – decreases thirst but increases hunger
 
 Additional Features
--Betting
--Dealer AI (Stand at 17)
--Doubling down
+-sickness – a tamagotchi can randomly get sick,  or get sick if it’s had too much of the same
+food, or too much booze.  The user can buy medicine to try to heal the tamagotchi.
+-minigames – let the user play a minigame with the tamagotchi (e.g., guessing a random number
+from 1 to 10) to increase its happiness
