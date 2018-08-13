@@ -1,6 +1,6 @@
 Tamagotchi
 
-Overview
+Overview:
 A tamagotchi is a virtual pet that the user has to take care
 of.  The tamagotchi has to eat and drink to stay alive, and
 can also die of boredom if ignored for too long.
@@ -8,7 +8,7 @@ The user has a starting budget with which to buy food,
 snacks, and drinks for the tamagotchi, and gets a certain
 amount of money each day.
 
-Implementation
+Implementation:
 Write  a Player class  and  a Tamagotchi class  to  model
 the user and the pet tamagotchi.  Write a TamagotchiApp
 class to act as the main executable.
@@ -27,7 +27,7 @@ lemonade – decreases thirst and boredom
 coffee – decreases thirst and hunger
 beer – decreases thirst but increases hunger
 
-Additional Features
+Additional Features:
 -sickness – a tamagotchi can randomly get sick,  or get sick if it’s had too much of the same
 food, or too much booze.  The user can buy medicine to try to heal the tamagotchi.
 -minigames – let the user play a minigame with the tamagotchi (e.g., guessing a random number
